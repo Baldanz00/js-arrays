@@ -33,9 +33,4 @@ longNames.push (teachers[i])
 const isFabioPresent = null;
 let isFabioPresent = teachers.includes( "Fabio") //boolen
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
-const teachersString = ""
-for (let i=0; i< teachers.length; i++) {
-  const name = teachers [i]
-  console.log (name)
-  teachersString += name
-}
+const teachersString = teachers.join ()
